@@ -10,7 +10,7 @@ body{
   display:grid;
   place-items:center;
   font-family:'Specimen', sans-serif;
-  background-image:url("src/images/background-pattern-desktop.svg");
+  background-image:url("./images/background-pattern-desktop.svg");
   background-position:center top;
   background-size:100%;
   background-repeat:no-repeat;

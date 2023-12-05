@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+import icon_open from "../images/"
 
 const OpenClose = ({state}) => {
     useEffect(()=>{
@@ -7,7 +7,7 @@ const OpenClose = ({state}) => {
     },[state])
     return(
         {/*<img src={`src/images/${icone}`}/>*/},
-        <img src={state==true?`src/images/icon-plus.svg`:`src/images/icon-minus.svg`}/>
+        <img src={state==true?`../images/icon-plus.svg`:`../images/icon-minus.svg`}/>
     )
 }
 
