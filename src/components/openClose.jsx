@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import icon_open from "../images/"
 
 const OpenClose = ({state}) => {
     useEffect(()=>{
