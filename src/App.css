@@ -46,4 +46,11 @@
   font-weight: 400;
 }
 
+@media screen and (max-width:510px){
+  .container{
+    width:80%;
+    min-width:400px;
+  }
+}
+
 /*# sourceMappingURL=App.css.map */

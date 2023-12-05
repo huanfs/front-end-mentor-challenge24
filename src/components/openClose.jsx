@@ -1,12 +1,9 @@
-import { useEffect } from "react";
-
+/*images*/
+import open from "../../public/images/icon-plus.svg";
+import close from "../../public/images/icon-minus.svg"
 const OpenClose = ({state}) => {
-    useEffect(()=>{
-        console.log("oi");
-    },[state])
     return(
-        {/*<img src={`src/images/${icone}`}/>*/},
-        <img src={state==true?"../../public/images/icon-plus.svg":"../../public/images/icon-minus.svg"}/>
+        <img src={state==true?open:close} alt="icon" />
     )
 }
 
