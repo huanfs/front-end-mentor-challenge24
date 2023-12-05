@@ -6,7 +6,7 @@ const OpenClose = ({state}) => {
     },[state])
     return(
         {/*<img src={`src/images/${icone}`}/>*/},
-        <img src={state==true?`../images/icon-plus.svg`:`../images/icon-minus.svg`}/>
+        <img src={state==true?"../../public/images/icon-plus.svg":"../../public/images/icon-minus.svg"}/>
     )
 }
 

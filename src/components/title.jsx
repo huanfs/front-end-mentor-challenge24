@@ -1,4 +1,4 @@
-import logo from "../images/icon-star.svg"
+import logo from "../../public/images/icon-star.svg"
 const Title = () => {
     return(
         <header>
