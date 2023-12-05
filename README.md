@@ -5,9 +5,9 @@
 - this component has build in *react* and styles using a pre processor *sass*
 
 - they have tree components *title*, *accordion* and *openClose*
-- - title is a component housing a logo and an <h1> tag
-- - accordion is a details tag with an summary and a p tags inside him
-- - openClose is an img inside summary
+- title is a component housing a logo and an *h1* tag
+- accordion is a details tag with an summary and a p tags inside him
+- openClose is an img inside summary
 
 ### code operation
 
