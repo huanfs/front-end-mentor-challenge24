@@ -1,0 +1,49 @@
+.container {
+  width: 600px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2em;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+.container header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.container header h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+}
+.container details + details {
+  border-top: 1px solid hsl(292, 16%, 49%);
+}
+.container details {
+  cursor: pointer;
+  padding-top: 2em;
+}
+.container details summary:hover {
+  color: hsl(292, 81%, 45%);
+  transition: 0.3s;
+}
+.container details summary::-webkit-details-marker {
+  display: none;
+}
+.container details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+}
+.container details p {
+  margin-top: 1em;
+  width: 90%;
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=App.css.map */
